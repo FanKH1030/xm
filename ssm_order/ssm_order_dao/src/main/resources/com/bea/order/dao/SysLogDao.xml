@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bea.order.dao.SysLogDao">
+
+    <select id="findAll" resultType="SysLog">
+        select * from sysLog order by visitTime desc
+    </select>
+
+    <insert id="add" parameterType="SysLog">
+        insert into sysLog(visitTime,username,ip,url,executionTime,method) values(#{visitTime},#{username},#{ip},#{url},#{executionTime},#{method})
+    </insert>
+</mapper>

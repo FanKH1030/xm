@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ssm_order.iml" filepath="$PROJECT_DIR$/ssm_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_order_dao/ssm_order_dao.iml" filepath="$PROJECT_DIR$/ssm_order_dao/ssm_order_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_order_model/ssm_order_model.iml" filepath="$PROJECT_DIR$/ssm_order_model/ssm_order_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_order_service/ssm_order_service.iml" filepath="$PROJECT_DIR$/ssm_order_service/ssm_order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_order_util/ssm_order_util.iml" filepath="$PROJECT_DIR$/ssm_order_util/ssm_order_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_order_web/ssm_order_web.iml" filepath="$PROJECT_DIR$/ssm_order_web/ssm_order_web.iml" />
+    </modules>
+  </component>
+</project>
